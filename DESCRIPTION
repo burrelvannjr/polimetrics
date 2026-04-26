@@ -1,13 +1,19 @@
-Package: vannstats
-Title: Simplified Statistics for PA 606
-Version: 1.0.4.15
-Description: Simplifies functions assess normality for bivariate and multivariate statistical techniques, including hst(), box(), and qq(). Plots designed to replicate those that would result from similar calls in 'SPSS'. Also includes simplified formulae, such as mode(), scatter(), and ow.anova().
+Package: polimetrics
+Title: R Tools for Political Measures
+Version: 1.2.1.23
+Description: This is a collection of data and functions for common metrics in political science research. Data measuring ideology, and functions calculating geographical diffusion and ideological diffusion - geog.diffuse() and ideo.dist(), respectively. Functions derived from methods developed in: Soule and King (2006) <doi:10.1086/499908>, Berry et al. (1998) <doi:10.2307/2991759>, Cruz-Aceves and Mallinson (2019) <doi:10.1177/0160323X20902818>, and Grossback et al. (2004) <doi:10.1177/1532673X04263801>.
 Depends:
     R (>= 3.2.3)
-Imports: MASS, dplyr, ggplot2, rlang, tidyverse, car, purrr, stats, graphics, formula.tools, gplots
+Imports: MASS, dplyr, ggplot2, rlang, tidyverse, car, purrr, stats, graphics, formula.tools, gplots, rstatix, stringr
 License: GPL-3
 LazyData: true
 NeedsCompilation: no
-Author: Burrel Vann Jr [aut, cre]
-Maintainer: Burrel Vann Jr <bvannjr@sdsu.edu>
+Authors@R: 
+	person(given = "Burrel",
+	 		family = "Vann Jr", 
+	 		email = "bvannjr@sdsu.edu", 
+	 		role = c("aut", "cre"),
+	 		comment = c(ORCID = "0000-0003-3066-5815"))
 RoxygenNote: 7.1.1
+URL: https://github.com/burrelvannjr/polimetrics
+BugReports: https://github.com/burrelvannjr/polimetrics/issues
