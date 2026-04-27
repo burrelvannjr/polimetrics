@@ -15,5 +15,5 @@ Authors@R:
 	 		role = c("aut", "cre"),
 	 		comment = c(ORCID = "0000-0003-3066-5815"))
 RoxygenNote: 7.1.1
-URL: https://github.com/burrelvannjr/polimetrics
+URL: https://github.com/burrelvannjr/polimetrics, https://burrelvannjr.github.io/polimetrics/
 BugReports: https://github.com/burrelvannjr/polimetrics/issues
