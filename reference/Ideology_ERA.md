@@ -1,0 +1,31 @@
+# Fording's State Ideology Data (adapted, with E.R.A. status)
+
+This data set comes from Richard C. Fording
+(<https://rcfording.com/state-ideology-data/>) and used in Berry et al.
+(1998). The data set includes state ideology data (measured at the
+state/legislature and citizen levels), for each year between 1960 and
+2018. These data will be updated as Fording updates the data. This data
+set enables inclusion of a variable measuring state-level policy
+adoption by year. As an example, the data set also include a variable
+measuring the ratification of the Equal Rights Amendment as depicted in
+Soule and King (2006).
+
+## Usage
+
+``` r
+Ideology_ERA
+```
+
+## Format
+
+A data frame with 300 observations and 5 variables.
+
+|                                                                                                                                                                                                       |            |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|
+|                                                                                                                                                                                                       | state      |
+| state name                                                                                                                                                                                            | year       |
+| year measured                                                                                                                                                                                         | c_ideo     |
+| citizen ideology score                                                                                                                                                                                | s_ideo     |
+| state level ideology score                                                                                                                                                                            | era_status |
+| measures the the event: adoption/ratification of the Equal Rights Amendment for a state in a given year. 0 equates to not ratified in state in that year, 1 equates to ratified in state in that year | neighbors  |
+| list of neighboring states for each observation. Elements (states) comma-delimited                                                                                                                    |            |
